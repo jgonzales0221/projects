@@ -25,7 +25,7 @@ def ask_input():
             else:
                 break
     else:
-        print("{}, is a palindrome".format(user_input))
+        print("{}, is not palindrome".format(user_input))
         while True:
             value = input("Do You Want to Try Again? (Y/N):")
             try: 
