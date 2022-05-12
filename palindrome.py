@@ -19,7 +19,7 @@ def ask_input():
                 elif value == "n":
                     print("Have a Nice Day!")
                 else:
-                    raise Exception("System Only Accepts 'Y' or 'N' value. Plese Try Again!")
+                    raise Exception("System Only Accepts 'Y' or 'Ns' value. Plese Try Again!")
             except Exception as e:
                     print(e)
             else:
@@ -34,7 +34,7 @@ def ask_input():
                 elif value == "n":
                     print("Have a Nice Day!")
                 else:
-                    raise Exception("System Only Accepts 'Y' or 'N' value. Please Try Again!")
+                    raise Exception("System Only Accepts 'Y' or 'N' values. Please Try Again!")
             except Exception as e:
                     print(e)
             else:
